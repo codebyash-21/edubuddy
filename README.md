@@ -26,6 +26,11 @@ python web.py                  # opens http://127.0.0.1:7860
 
 ### On a Raspberry Pi 4 or 5 (64-bit Raspberry Pi OS)
 
+> **Setting this up on a Pi for the first time? Follow [SETUP_PI.md](SETUP_PI.md)
+> instead.** It covers flashing the OS, per-stage timings, the textbook handover
+> and a troubleshooting table. The summary below assumes you already know your
+> way around.
+
 Start to finish, from a clean Pi:
 
 ```bash
@@ -186,6 +191,7 @@ with `--lang en` to sanity-check the install before committing to a full pass.
 | `research_diagnostics.py` | Ablation harness: coverage, first-rank, MRR per design choice |
 | `testcases.json` | The 34-question validation set (21 short, 10 long, 3 negative controls) |
 | `setup.sh` / `setup_pi.sh` | Installers for x86-64 and ARM |
+| `SETUP_PI.md` | Step-by-step Raspberry Pi setup guide |
 | `books/` `library/` `results/` | Your PDFs, the generated index, evaluation output |
 
 ---
